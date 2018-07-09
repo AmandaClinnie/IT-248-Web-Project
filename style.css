@@ -1,0 +1,997 @@
+﻿@media only screen and (max-width: 599px) {
+	body {
+		min-height: 100%;
+		margin-bottom: -25px;
+		margin : 0;
+		padding : 0;
+		font : 73% "Trebuchet MS", arial, verdana, tahoma, sans-serif;
+		line-height : 1.7em;
+		color : #333;
+		background : #e6f8d3;
+	}
+
+	ul {
+		list-style: none;
+		padding-left: 5px;
+	}
+
+	.navigation {
+		display: block;
+		padding : 3px 0;
+		margin : 0;
+		border : none;
+		text-align : left;
+		color : #666;
+		background : #6FBF20;
+	}
+
+	.navigation li {
+		list-style : none;
+		display : inline-block;
+		margin: 5px 0px;
+	}
+
+	.navigation li a {
+		font-size: 1.5em;
+		text-decoration : none;
+		padding : 3px 1.2em;
+		margin : 0;
+		border :none;
+		border-radius: 2.5px;
+		color : #333;
+		background : #cbeea8;
+	}
+
+	.navigation li a:hover {
+		border : 0 solid #d2dcc9;
+		color : #fff;
+		background : #66b01c;
+	}
+			
+	.footer {
+		text-align: center;
+		clear : both;
+		padding : 3px;
+		margin : 0 0 0 0;
+		font-size : 1.4em;
+		color : #333;
+		height: 25px;
+	}
+		
+	h2 {
+		padding : 0;
+		margin : 10px 5px;
+		font : 140% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	#collegetitle{
+		display: block;
+		margin: 5px;
+		border: 2px solid #26410b;
+		border-radius: 5px;
+		padding: 2px;
+		text-align: center;
+		background-color:#dbf6bc;
+	}
+
+	#location {
+		padding : 0;
+		margin : 10px 5px;
+		font : 120% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	.college li{
+		list-style : none;
+		margin : 0;
+	}
+
+	.college li a{
+		color:#26410b;
+		text-decoration : none;
+	}
+
+	.college li a:hover{
+		color: white;
+		background-color:#26410b;
+		border-radius:5px;
+		text-decoration : none;
+	}
+
+	.college p a{
+		color:#26410b;
+		font-size: 1.3em;
+		text-decoration : none;
+	}
+
+	.college p a:hover{
+		font-style:italic;
+		color:#26410b;
+		font-size: 1.3em;
+		text-decoration : none;
+	}
+
+	p {
+		padding : 0;
+		margin : 0 5px;
+		font : 100% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	#titlep {
+		padding-bottom: 15px;
+		text-align:center;
+		font : 100% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	#titlep a {
+		text-decoration: none;
+		color: #6FBF20;
+	}
+			
+	a {
+		text-decoration :underline;
+		color : #069;
+		background : inherit;
+	}
+
+	a:hover {
+		text-decoration : none;
+		color : #333;
+		background : inherit;
+	}
+
+	.body {
+		float: left;
+		width: 50%;
+	}
+
+	.homebody img{
+		border-radius: 2.5px;
+		height: 30%;
+		width: 55%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.image{
+		float: right;
+		width: 50%;
+		margin-top: 30px;
+	}
+
+	.image img{
+		width: 90%;
+		height: 65%;
+		display: block;
+		margin: auto;
+		padding-top: 5%;
+	}
+
+
+	#degreeDatabase{
+		width: 100%;
+		margin: auto;
+		border: 3px solid #26410b;
+		table-layout: auto;
+		overflow: auto;
+	}
+
+	#degreeDatabase th{
+		border: none;
+		border-bottom: 2px solid #26410b;
+		text-align: center;
+		background-color: white;
+		font : 120% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		font-weight: bold;
+		padding: 5px;
+	}
+
+	#degreeDatabase td{
+		border: none;
+		font : 100% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		padding: 2px;
+	}
+
+	#degreeDatabase a{
+		text-decoration: none;
+		color: #6FBF20;
+	}
+
+	#degreeDatabase a:hover{
+		text-decoration: underline;
+		color: #6FBF20;
+	}
+
+	tr:hover{
+		background-color: #daf5bd;
+	}
+
+	#degreeInput{
+		display: block;
+		margin: auto;
+		width: 70%;
+		padding: 5px;
+		border: none;
+		font : 110% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#homeH2 {
+		padding : 0;
+		margin : 10px 5px;
+		font : 120% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	#th0 {
+		width: 16%;
+	}
+
+	#th1 {
+		width: 22%;
+	}
+
+	#th2 {
+		width: 28%;
+	}
+
+	#th3 {
+		width: 21%;
+	}
+
+	#th4 {
+		width: 13%;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+	body {
+		min-height: 100%;
+		margin-bottom: -25px;
+		margin : 0;
+		padding : 0;
+		font : 73% "Trebuchet MS", arial, verdana, tahoma, sans-serif;
+		line-height : 1.7em;
+		color : #333;
+		background : #e6f8d3;
+	}
+
+	.navigation {
+		display: block;
+		padding : 3px 0;
+		margin : 0;
+		border : none;
+		text-align : left;
+		color : #666;
+		background : #6FBF20;
+	}
+
+	.navigation li {
+		list-style : none;
+		display : inline-block;
+		margin: 5px 0px;
+	}
+
+	.navigation li a {
+		font-size: 1.5em;
+		text-decoration : none;
+		padding : 3px 1.2em;
+		margin : 0;
+		border :none;
+		border-radius: 2.5px;
+		color : #333;
+		background : #cbeea8;
+	}
+
+	.navigation li a:hover {
+		border : 0 solid #d2dcc9;
+		color : #fff;
+		background : #66b01c;
+	}
+			
+	.footer {
+		text-align: center;
+		clear : both;
+		padding : 3px;
+		margin : 0 0 0 0;
+		font-size : 1.4em;
+		color : #333;
+		height: 25px;
+	}
+		
+	h2 {
+		padding : 0;
+		margin : 10px 5px 20px 40px;
+		font : 160% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	#collegetitle{
+		display: block;
+		margin: 5px;
+		border: 2px solid #26410b;
+		border-radius: 5px;
+		padding: 2px;
+		text-align: center;
+		background-color:#dbf6bc;
+	}
+
+	#location {
+		padding : 0;
+		margin : 10px 5px 20px 40px;
+		font : 120% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	.college li{
+		list-style : none;
+		margin : 0;
+	}
+
+	.college li a{
+		color:#26410b;
+		text-decoration : none;
+	}
+
+	.college li a:hover{
+		color: white;
+		background-color:#26410b;
+		border-radius:5px;
+		text-decoration : none;
+	}
+
+	.college p a{
+		color:#26410b;
+		font-size: 1.3em;
+		text-decoration : none;
+	}
+
+	.college p a:hover{
+		font-style:italic;
+		color:#26410b;
+		font-size: 1.3em;
+		text-decoration : none;
+	}
+
+	p {
+		padding : 0;
+		margin : 0 5px 0 40px;
+		font : 100% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	#titlep {
+		padding-bottom: 15px;
+		text-align:center;
+		font : 100% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	#titlep a {
+		text-decoration: none;
+		color: #6FBF20;
+	}
+			
+	a {
+		text-decoration :underline;
+		color : #069;
+		background : inherit;
+	}
+
+	a:hover {
+		text-decoration : none;
+		color : #333;
+		background : inherit;
+	}
+
+	.body {
+		float: left;
+		width: 50%;
+	}
+
+	.homebody img{
+		border-radius: 2.5px;
+		height: 30%;
+		width: 55%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.image{
+		float: right;
+		width: 50%;
+	}
+
+	.image img{
+		width: 90%;
+		height: 65%;
+		display: block;
+		margin: auto;
+		padding-top: 5%;
+	}
+
+
+	#degreeDatabase{
+		width: 95%;
+		margin: auto;
+		border: 3px solid #26410b;
+		table-layout: fixed;
+	}
+
+	#degreeDatabase th{
+		border: none;
+		border-bottom: 2px solid #26410b;
+		text-align: center;
+		background-color: white;
+		font : 120% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		font-weight: bold;
+		padding: 5px;
+	}
+
+	#degreeDatabase td{
+		border: none;
+		font : 100% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		padding: 2px;
+	}
+
+	#degreeDatabase a{
+		text-decoration: none;
+		color: #6FBF20;
+	}
+
+	#degreeDatabase a:hover{
+		text-decoration: underline;
+		color: #6FBF20;
+	}
+
+	tr:hover{
+		background-color: #daf5bd;
+	}
+
+	#degreeInput{
+		display: block;
+		margin: auto;
+		width: 30%;
+		padding: 5px;
+		border: none;
+		font : 110% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#homeH2 {
+		padding : 0;
+		margin : 10px 5px 20px 40px;
+		font : 140% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	#th0 {
+		width: 16%;
+	}
+
+	#th1 {
+		width: 22%;
+	}
+
+	#th2 {
+		width: 28%;
+	}
+
+	#th3 {
+		width: 21%;
+	}
+
+	#th4 {
+		width: 13%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	body {
+		min-height: 100%;
+		margin-bottom: -25px;
+		margin : 0;
+		padding : 0;
+		font : 73% "Trebuchet MS", arial, verdana, tahoma, sans-serif;
+		line-height : 1.7em;
+		color : #333;
+		background : #e6f8d3;
+	}
+
+	.navigation {
+		display: block;
+		padding : 3px 0;
+		margin : 0;
+		border : none;
+		text-align : left;
+		color : #666;
+		background : #6FBF20;
+	}
+
+	.navigation li {
+		list-style : none;
+		margin : 0;
+		display : inline;
+	}
+
+	.navigation li a {
+		font-size: 1.5em;
+		text-decoration : none;
+		padding : 3px 1.2em;
+		margin : 0;
+		border :none;
+		border-radius: 2.5px;
+		color : #333;
+		background : #cbeea8;
+	}
+
+	.navigation li a:hover {
+		border : 0 solid #d2dcc9;
+		color : #fff;
+		background : #66b01c;
+	}
+			
+	.footer {
+		text-align: center;
+		clear : both;
+		padding : 3px;
+		margin : 0 0 0 0;
+		font-size : 1.4em;
+		color : #333;
+		height: 25px;
+	}
+		
+	h2 {
+		padding : 0;
+		margin : 10px 5px 20px 40px;
+		font : 160% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	#collegetitle{
+		display: block;
+		margin: 5px;
+		border: 2px solid #26410b;
+		border-radius: 5px;
+		padding: 2px;
+		text-align: center;
+		background-color:#dbf6bc;
+	}
+
+	#location {
+		padding : 0;
+		margin : 10px 5px 20px 40px;
+		font : 120% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	.college li{
+		list-style : none;
+		margin : 0;
+	}
+
+	.college li a{
+		color:#26410b;
+		text-decoration : none;
+	}
+
+	.college li a:hover{
+		color: white;
+		background-color:#26410b;
+		border-radius:5px;
+		text-decoration : none;
+	}
+
+	.college p a{
+		color:#26410b;
+		font-size: 1.3em;
+		text-decoration : none;
+	}
+
+	.college p a:hover{
+		font-style:italic;
+		color:#26410b;
+		font-size: 1.3em;
+		text-decoration : none;
+	}
+
+	p {
+		padding : 0;
+		margin : 0 5px 0 40px;
+		font : 100% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	#titlep {
+		padding-bottom: 15px;
+		text-align:center;
+		font : 100% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	#titlep a {
+		text-decoration: none;
+		color: #6FBF20;
+	}
+			
+	a {
+		text-decoration :underline;
+		color : #069;
+		background : inherit;
+	}
+
+	a:hover {
+		text-decoration : none;
+		color : #333;
+		background : inherit;
+	}
+
+	.body {
+		float: left;
+		width: 50%;
+	}
+
+	.homebody img{
+		border-radius: 2.5px;
+		height: 30%;
+		width: 55%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.image{
+		float: right;
+		width: 50%;
+	}
+
+	.image img{
+		width: 90%;
+		height: 65%;
+		display: block;
+		margin: auto;
+		padding-top: 5%;
+	}
+
+
+	#degreeDatabase{
+		width: 95%;
+		margin: auto;
+		border: 3px solid #26410b;
+		table-layout: fixed;
+	}
+
+	#degreeDatabase th{
+		border: none;
+		border-bottom: 2px solid #26410b;
+		text-align: center;
+		background-color: white;
+		font : 134% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		font-weight: bold;
+		padding: 5px;
+	}
+
+	#degreeDatabase td{
+		border: none;
+		font : 100% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		padding: 2px;
+	}
+
+	#degreeDatabase a{
+		text-decoration: none;
+		color: #6FBF20;
+	}
+
+	#degreeDatabase a:hover{
+		text-decoration: underline;
+		color: #6FBF20;
+	}
+
+	tr:hover{
+		background-color: #daf5bd;
+	}
+
+	#degreeInput{
+		display: block;
+		margin: auto;
+		width: 30%;
+		padding: 5px;
+		border: none;
+		font : 110% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#homeH2 {
+		padding : 0;
+		margin : 10px 5px 20px 40px;
+		font : 140% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	#th0 {
+		width: 14%;
+	}
+
+	#th1 {
+		width: 24%;
+	}
+
+	#th2 {
+		width: 30%;
+	}
+
+	#th3 {
+		width: 21%;
+	}
+
+	#th4 {
+		width: 11%;
+	}
+}
+
+
+
+
+@media only screen and (min-width: 992px) {
+	body {
+		min-height: 100%;
+		margin-bottom: -25px;
+		margin : 0;
+		padding : 0;
+		font : 73% "Trebuchet MS", arial, verdana, tahoma, sans-serif;
+		line-height : 1.7em;
+		color : #333;
+		background : #e6f8d3;
+	}
+
+	.navigation {
+		display: block;
+		padding : 3px 0;
+		margin : 0;
+		border : none;
+		text-align : left;
+		color : #666;
+		background : #6FBF20;
+	}
+
+	.navigation li {
+		list-style : none;
+		margin : 0;
+		display : inline;
+	}
+
+	.navigation li a {
+		font-size: 1.5em;
+		text-decoration : none;
+		padding : 3px 1.2em;
+		margin : 0;
+		border :none;
+		border-radius: 2.5px;
+		color : #333;
+		background : #cbeea8;
+	}
+
+	.navigation li a:hover {
+		border : 0 solid #d2dcc9;
+		color : #fff;
+		background : #66b01c;
+	}
+			
+	.footer {
+		text-align: center;
+		clear : both;
+		padding : 3px;
+		margin : 0 0 0 0;
+		font-size : 1.4em;
+		color : #333;
+		height: 25px;
+	}
+		
+	h2 {
+		padding : 0;
+		margin : 10px 5px 20px 40px;
+		font : 160% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	#collegetitle{
+		display: block;
+		margin: 5px;
+		border: 2px solid #26410b;
+		border-radius: 5px;
+		padding: 2px;
+		text-align: center;
+		background-color:#dbf6bc;
+	}
+
+	#location {
+		padding : 0;
+		margin : 10px 5px 20px 40px;
+		font : 120% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	.college li{
+		list-style : none;
+		margin : 0;
+	}
+
+	.college li a{
+		color:#26410b;
+		text-decoration : none;
+	}
+
+	.college li a:hover{
+		color: white;
+		background-color:#26410b;
+		border-radius:5px;
+		text-decoration : none;
+	}
+
+	.college p a{
+		color:#26410b;
+		font-size: 1.3em;
+		text-decoration : none;
+	}
+
+	.college p a:hover{
+		font-style:italic;
+		color:#26410b;
+		font-size: 1.3em;
+		text-decoration : none;
+	}
+
+	p {
+		padding : 0;
+		margin : 0 5px 0 40px;
+		font : 100% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	#titlep {
+		padding-bottom: 15px;
+		text-align:center;
+		font : 100% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		color : #333;
+		background : inherit;
+	}
+
+	#titlep a {
+		text-decoration: none;
+		color: #6FBF20;
+	}
+			
+	a {
+		text-decoration :underline;
+		color : #069;
+		background : inherit;
+	}
+
+	a:hover {
+		text-decoration : none;
+		color : #333;
+		background : inherit;
+	}
+
+	.body {
+		float: left;
+		width: 50%;
+	}
+
+	.homebody img{
+		border-radius: 2.5px;
+		height: 30%;
+		width: 55%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.image{
+		float: right;
+		width: 50%;
+	}
+
+	.image img{
+		width: 90%;
+		height: 65%;
+		display: block;
+		margin: auto;
+		padding-top: 5%;
+	}
+
+
+	#degreeDatabase{
+		width: 85%;
+		margin: auto;
+		border: 3px solid #26410b;
+		table-layout: fixed;
+	}
+
+	#degreeDatabase th{
+		border: none;
+		border-bottom: 2px solid #26410b;
+		text-align: center;
+		background-color: white;
+		font : 134% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		font-weight: bold;
+		padding: 5px;
+	}
+
+	#degreeDatabase td{
+		border: none;
+		font : 100% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		padding: 2px;
+	}
+
+	#degreeDatabase a{
+		text-decoration: none;
+		color: #6FBF20;
+	}
+
+	#degreeDatabase a:hover{
+		text-decoration: underline;
+		color: #6FBF20;
+	}
+
+	tr:hover{
+		background-color: #daf5bd;
+	}
+
+	#degreeInput{
+		display: block;
+		margin: auto;
+		width: 30%;
+		padding: 5px;
+		border: none;
+		font : 110% verdana, arial, "Trebuchet MS", tahoma, sans-serif;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#th0 {
+		width: 12%;
+	}
+
+	#th1 {
+		width: 25%;
+	}
+
+	#th2 {
+		width: 31%;
+	}
+
+	#th3 {
+		width: 22%;
+	}
+
+	#th4 {
+		width: 10%;
+	}
+}
